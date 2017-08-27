@@ -68,6 +68,24 @@ body{
   background-size:cover;
   background-position: center;
 }
+.img-front1{
+  position:absolute;
+  margin:0;
+  height: 100%;
+  width: 100%;
+  background: url('images/5diet.png');
+  background-size:cover;
+  background-position: center;
+}
+.img-front2{
+  position:absolute;
+  margin:0;
+  height: 100%;
+  width: 100%;
+  background: url('images/your-change.png');
+  background-size:cover;
+  background-position: center;
+}
 .cust-caption{
   display:none;
   position: absolute;
@@ -136,13 +154,13 @@ font-size : 8em;
 }
 .list{
   list-style: none;
+
 }
 .list.left{
   float:left;
+  margin-left:15px;
 }
-.list.right{
-  float:right;
-}
+
 ul.links i {
   font-size: 25px;
 }
@@ -162,6 +180,9 @@ ul.links i {
   padding: 25px;
   background-color: #fff;
   text-align: center;
+}
+.colored {
+  font-size: 18px;
 }
 footer{
   background: #222;
