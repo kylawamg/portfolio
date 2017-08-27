@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>AMGDev</title>
      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,7 +39,7 @@
       <div class="row">
         <div class="col-sm-12 head">
           <div class="logo">
-              <img src="images/alejandro.jpg" alt="" title="tool tip" class="img-circle shadow up-hover avatar">
+              <img src="images/alejandro.JPG" alt="" title="tool tip" class="img-circle shadow up-hover avatar">
             <h1 class="stm-font"> Alejandro Manjon Gomez</h1>
           </div>
           <h3 class="stm-font">Full stack developer</h3>
@@ -57,25 +58,27 @@
     </div>
 
   </section>
-  <div class="container">
+  <div class="container-fluid about">
     <section id="about" class="">
-    <h1><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>About Me</h1>
+    <h1 class="content-title"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>About Me</h1>
     <div class="row aboutcontent">
       <div class="col-sm-4 ">
-        <img src="" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
+        <img src="images/alejandro.JPG" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
       </div>
       <div class="col-sm-8 ">
         <h2 class="text-primary stm-font">Info</h2>
         <p>Hi, I'm Alejandro and I'm a full stack developer with a system technician background. When I discovered the web programming I loved it and decided to take the leap to learn as much as possible and dedicate my life to this great passion. I love everything about technology and the challenge of never stopping learning. </p>
         <h2 class="text-primary stm-font">Tools</h2>
         <p>During my learning phase these are the technologies I have worked with so far:
-          <ul>
+          <ul class="list left">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Javascript & ES6</li>
             <li>JQuery</li>
             <li>Node.js</li>
             <li>Express.js</li>
+          </ul>
+          <ul class="list right">
             <li>MongoDB & Mongoose</li>
             <li>Bootstrap, Materialize & Bulma.io</li>
             <li>Java EE & Spring Framework</li>
@@ -87,24 +90,28 @@
       </div>
     </div>
     </section>
-  <section>
-        <h1><span class="glyphicon glyphicon-book" aria-hidden="true"></i>Portfolio</h1>
+  </div>
+  <div class="container-fluid portfolio">
+    <section>
+        <h1 class="portfolio-title"><span class="glyphicon glyphicon-book" aria-hidden="true"></i>Portfolio</h1>
                 <div class="container">
       <div class="row showcase stm-font">
          <div class="col-sm-4 hidden-xs" id="card">
-           <div class="well shadow up-hover color-hover">
+           <div class="well shadow-box up-hover-box color-hover">
             <div class="front">
-            <h1><i class="fa fa-lightbulb-o"></i></h1>
-            <h2 >Concept</h2>
+              <div class="img-front">
+
+              </div>
              </div>
              <div class="back">
-               <h4>Skill</h4>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, w   </p>
+               <h3>Duck Hunt Game</h3>
+               <p>Inspired by the classic atari game. First Ironhack web development bootcam project.  </p>
+               <a target="_blank"href="https://kylawamg.github.io/duck_hunt/">Play here</a>
              </div>
            </div>
           </div>
      <div class="col-sm-4 hidden-xs" id="card1">
-           <div class="well shadow up-hover color-hover">
+           <div class="well shadow-box up-hover-box color-hover">
             <div class="front">
             <h1><i class="fa fa-pencil-square-o"></i></h1>
             <h2 >Design</h2>
@@ -116,7 +123,7 @@
            </div>
           </div>
      <div class="col-sm-4 hidden-xs" id="card2">
-           <div class="well shadow up-hover color-hover">
+           <div class="well shadow-box up-hover-box color-hover">
             <div class="front">
             <h1><i class="fa fa-code"></i></h1>
             <h2 >Development</h2>
@@ -130,7 +137,26 @@
       </div>
     </div>
     </section>
-
+  </div>
+    <div class="container-fluid about">
+      <section>
+        <h1 class="content-title"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact</h1>
+        <p class="contact-p">You can contact me via email to alejandro.m.gomez.92@gmail.com or send a meesage in any of these networks:</p>
+        <div class="row">
+          <nav>
+            <ul class="list-inline links">
+              <li><a class="btn btn-default btn-lg" href="https://github.com/kylawamg" title="KylawAMG on GitHub" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href="" title="KylawAMG on Codepen" target="_blank"><i class="fa fa-codepen"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href="" title="KylawAMG on Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="btn btn-default btn-lg" href=""  title="KylawAMG on Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </div>
+    <footer>
+        <h4>All rights reserved @kylawamg</h4>
+    </footer>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
